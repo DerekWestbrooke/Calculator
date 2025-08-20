@@ -56,7 +56,7 @@ class Calculator(QtWidgets.QWidget):
 
     # Creating a main function to click buttons
     def click_the_button(self, text=None):
-        if text is not None:
+        if text is None:
             button_text = text
         else:
             button = self.sender()
